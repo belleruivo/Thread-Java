@@ -101,6 +101,7 @@ public class ConcurrencyTest {
                 try {
                     for (int j = 0; j < elementsPerConsumer; j++) {
                         Integer value = sharedList.remove();
+                        System.out.println("Consumidor " + consumerId + " consumiu: " + value);
                         Thread.sleep(50); // Consumo mais rápido
                     }
                     System.out.println("Consumidor " + consumerId + " finalizou");
