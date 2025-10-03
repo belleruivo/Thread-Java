@@ -145,7 +145,3 @@ T2 (Consumidor) processando valor: 1
 - [Effective Java - Item 78: Synchronize access to shared mutable data](https://www.oreilly.com/library/view/effective-java-3rd/9780134686097/)
 
 ---
-
-**Autor**: [Seu Nome]  
-**Data**: Outubro 2025  
-**Versão**: 1.0
